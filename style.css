@@ -1,14 +1,15 @@
 section{
     border: 1px solid black;
-    width: 50%;
+    width: 30%;
     float: left;
     box-sizing: border-box;
     margin: 2em;
+    display: inline;
 }
 
 .Strasburg {
   float: left;
-  width: 40%;
+  width: 30%;
   padding: 1em;
 }
 
@@ -26,4 +27,8 @@ p{
   text-shadow: .8px;
   font-weight: lighter;
   text-align: left;
+}
+
+.radio-right {
+  text-align: right;
 }
